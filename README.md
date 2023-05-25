@@ -44,7 +44,12 @@ sequenceDiagram
     花子-->>太郎: ごめん。まだなんだ。
     deactivate 花子
     統也->>太郎: その問題なら解けたよ！
-    
+    activate 太郎
+    太郎-->>統也: 教えて！
+    deactivate 太郎
+    activate 統也
+    統也-->>太郎: いいよ！
+    deactivate 統也
     
 ```
 

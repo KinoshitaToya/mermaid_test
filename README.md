@@ -21,6 +21,8 @@ Mermaidを触ってみよう
 flowchart LR;
   開始 --> 分岐 --> True
   分岐 --> False
+  True --> 終了
+  False --> 終了
   
 ```
 

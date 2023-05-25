@@ -19,8 +19,9 @@ Mermaidを触ってみよう
 ## 解答
 ```mermaid
 flowchart LR;
-       -->終了
-  開始 --> 終了
+  開始 --> 分岐 --> True
+  分岐 --> False
+  
 ```
 
 ## シーケンス図

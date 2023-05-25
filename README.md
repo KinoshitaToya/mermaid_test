@@ -40,7 +40,7 @@ sequenceDiagram
     actor 太郎
     actor 花子
     
-    太郎->>花子 統也: おはよう！
+    太郎->>花子&統也: おはよう！
     activate 花子
     花子-->>太郎: おはようございます!
     deactivate 花子

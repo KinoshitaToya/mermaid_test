@@ -36,9 +36,9 @@ flowchart LR;
 ## 解答
 ```mermaid
 sequenceDiagram
+    actor 統也
     actor 太郎
     actor 花子
-    actor 統也
     太郎->>統也: おはよう！
     太郎->>花子: おはよう！
     activate 花子

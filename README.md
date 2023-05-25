@@ -50,7 +50,10 @@ sequenceDiagram
     activate 統也
     統也-->>太郎: いいよ！
     deactivate 統也
-    
+    花子->>統也: 私にも教えて！
+    activate 統也
+    統也-->>花子: もちろん！
+    deactivate 統也
 ```
 
 ## クラス図
